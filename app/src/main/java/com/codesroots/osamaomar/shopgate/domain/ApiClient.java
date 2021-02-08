@@ -42,6 +42,7 @@ public class ApiClient {
                     return chain.proceed(newRequest);
                 })
                 .build();
+
     }
 
     public static Retrofit getClient() {
